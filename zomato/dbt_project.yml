@@ -35,5 +35,3 @@ models:
     marts : { +materialized: table, +schema: marts}
   snapshot:
     zomato: { +materialized: snapshot, +schema: snapshot} 
-
-# i just defined the settings to store my staging and marts
