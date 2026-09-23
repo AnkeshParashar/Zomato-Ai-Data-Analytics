@@ -4,3 +4,5 @@ dbt_packages/
 logs/
 .env
 creds
+profiles.yml
+.user.yml
