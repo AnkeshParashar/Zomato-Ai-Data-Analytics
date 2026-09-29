@@ -1,1 +1,2 @@
 .env
+review_embeddings.parquet
