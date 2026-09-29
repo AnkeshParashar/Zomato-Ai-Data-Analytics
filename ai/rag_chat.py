@@ -124,7 +124,7 @@ def ask_llm(question, top_reviews):
         "Be concise. If the reviews don't covert it, say so"
     )
 
-    user_prompt = f"Questions: {question}\n\nReviews:\n{conext}"
+    user_prompt = f"Questions: {question}\n\nReviews:\n{context}"
 
     for attempt in range(3):
         try:
